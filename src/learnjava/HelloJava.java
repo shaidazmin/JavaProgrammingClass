@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class HelloJava {
 
+	static int value = 5;
 
 	public static void main(String args[]){
 		
@@ -11,13 +12,17 @@ public class HelloJava {
 		Scanner input = new Scanner(System.in);
 		
 		int a = 5;
-		int b = 7;
 		
-		
-		System.out.println("AND "+(a & b));
-		System.out.println("OR "+(a | b));
-		System.out.println("XOR "+(a ^ b));
-		System.out.println("Complement "+(~a));
+//		int a = +5;
+//		int b = 7;
+//		
+//		System.out.println("AND "+(a & b));
+//		System.out.println("OR "+(a | b));
+//		System.out.println("XOR "+(a ^ b));
+//		System.out.println("Complement "+(~a));
+//		
+//		t-shirt and watch  OR shoe || 
+//		 && 
 		
 		
 //		int a = 5;
@@ -29,6 +34,8 @@ public class HelloJava {
 //		
 //		if(phy == 90) {
 //			// .............
+//		}else {
+//			/// ..... 
 //		}
 //		
 //		System.out.println("second number "+value);
